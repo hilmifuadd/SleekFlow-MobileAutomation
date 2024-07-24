@@ -5,17 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8ab41f4-bf63-45e9-814e-1d4673cca515" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/api/RequestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/config/ProjectConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/config/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/steps/CreateProjectSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/utils/AppiumSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sleekflow/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/create_project.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallel-tests/local/local_todoist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/ThreadLocalDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/localization/ProjectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/BaseSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/localization/CreateProjectSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/PropertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/WaitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/00_CreateProject.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/css/cluecumber-additional.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/css/cluecumber-custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/css/cluecumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/css/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/css/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/font/cluecumber.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/font/cluecumber.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/font/cluecumber.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/font/cluecumber.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/font/cluecumber.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/js/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/js/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/feature-scenarios/feature_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/feature-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-detail/scenario_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-detail/scenario_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-sequence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_01539670158.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_016490807.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_2017480614.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_31.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/tag-scenarios/tag_FirstTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/tag-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/api/RequestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/RequestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/config/ProjectConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/config/TestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/steps/CreateProjectSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sleekflow/utils/AppiumSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sleekflow/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sleekflow/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/create_project.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,57 +101,208 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="2jUoJV7P4fSo7MRNKOjBjoFBspL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.sleekflow.tests" />
+      <recent name="steps.localization" />
+      <recent name="steps" />
+      <recent name="com.example.sleekflow.utils" />
       <recent name="com.example.sleekflow.api" />
+      <recent name="com.example.sleekflow.tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features/localization" />
       <recent name="$PROJECT_DIR$/src/test/resources/apps" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.example.sleekflow.pages" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User verify in Mobile that Project already created (2)">
+    <configuration name="Feature: 00_CreateProject (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/00_CreateProject.feature" />
+      <option name="GLUE" value="steps/localization" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SleekFlow" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: 00_CreateProject" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sleekflow.runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sleekflow.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.sleekflow.runners.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: 00_CreateProject" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/localization/00_CreateProject.feature" />
+      <option name="GLUE" value="steps.localization" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SleekFlow" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: 00_CreateProject" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: test-todoist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test-todoist.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SleekFlow" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: test-todoist" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User creates a new project via API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/localization/00_CreateProject.feature" />
+      <option name="GLUE" value="steps.localization" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SleekFlow" />
+      <option name="NAME_FILTER" value="^User creates a new project via API$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User creates a new project via API$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User creates a new project via API" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User verify in Mobile that Project already created (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/00_CreateProject.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SleekFlow" />
+      <option name="NAME_FILTER" value="^User verify in Mobile that Project already created$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User verify in Mobile that Project already created$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User verify in Mobile that Project already created" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User verify in Mobile that Project already created" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/localization/00_CreateProject.feature" />
+      <option name="GLUE" value="steps.localization" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SleekFlow" />
+      <option name="NAME_FILTER" value="^User verify in Mobile that Project already created$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User verify in Mobile that Project already created$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: User verify in Mobile that Project already created" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/asani/Test Interview/SleekFlow/parallel-tests/local/local_todoist.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SleekFlow" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel-tests/local/local_todoist.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: 00_CreateProject (1)" />
+      <item itemvalue="Cucumber Java.Feature: 00_CreateProject" />
+      <item itemvalue="Cucumber Java.Scenario: User verify in Mobile that Project already created (2)" />
+      <item itemvalue="Cucumber Java.Feature: test-todoist" />
+      <item itemvalue="Cucumber Java.Scenario: User creates a new project via API" />
+      <item itemvalue="Cucumber Java.Scenario: User verify in Mobile that Project already created" />
+      <item itemvalue="TestNG./Users/asani/Test Interview/SleekFlow/parallel-tests/local/local_todoist.xml" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: User verify in Mobile that Project already created (2)" />
+        <item itemvalue="Cucumber Java.Scenario: User verify in Mobile that Project already created" />
+        <item itemvalue="TestNG./Users/asani/Test Interview/SleekFlow/parallel-tests/local/local_todoist.xml" />
+        <item itemvalue="Cucumber Java.Scenario: User creates a new project via API" />
+        <item itemvalue="Cucumber Java.Feature: test-todoist" />
       </list>
     </recent_temporary>
   </component>
@@ -121,5 +316,42 @@
       <updated>1721450945798</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="io.cucumber.core.exception.CucumberException" package="io.cucumber.core.exception" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SleekFlow$Scenario__User_verify_in_Mobile_that_Project_already_created.ic" NAME="Scenario: User verify in Mobile that Project already created Coverage Results" MODIFIED="1721592052311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>
