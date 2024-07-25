@@ -12,9 +12,11 @@ Feature: 00_Create_Project
     And user got successfully logged in and enters to menu browse
     And user create the project on API name <projectName>
     Then user verified that the project is successfully created
+    And user create a task in mobile name <taskName>
+    And user verified that the task is successfully created
     Examples:
-      | email                   | password        | projectName         |
-      | "nyobasally1@gmail.com" | "initest123!@#" | "Mobile Project Hilmi" |
+      | email                   | password        | projectName         |  taskName |
+      | "nyobasally1@gmail.com" | "initest123!@#" | "Mobile Project Hilmi" | "Test Task Hilmi"  |
 
 
 
