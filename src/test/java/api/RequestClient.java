@@ -2,7 +2,6 @@ package api;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
 
 import java.util.UUID;
 public class RequestClient {
@@ -25,14 +24,26 @@ public class RequestClient {
                 .response();
     }
 
-    public ValidatableResponse getTasks() {
+    public Response getTasks() {
         return RestAssured
                 .given()
                 .header("Authorization", "Bearer " + apiToken)
                 .header("Content-Type", "application/json")
                 .get(BASE_URL + "tasks")
                 .then()
-                .statusCode(200);
+                .extract()
+                .response();
+    }
+
+    public Response getTaskById(String taskId) {
+        return RestAssured
+                .given()
+                .header("Authorization", "Bearer " + apiToken)
+                .header("Content-Type", "application/json")
+                .get(BASE_URL + "tasks/" + taskId)
+                .then()
+                .extract()
+                .response();
     }
 
 
