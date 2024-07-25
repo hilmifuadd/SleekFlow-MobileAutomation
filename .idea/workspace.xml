@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8ab41f4-bf63-45e9-814e-1d4673cca515" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d8ab41f4-bf63-45e9-814e-1d4673cca515" name="Changes" comment="chore: add README.md and fix some config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel-tests/local/local_todoist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parallel-tests/local/local_todoist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/feature-scenarios/feature_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/feature-scenarios/feature_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/feature-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-detail/scenario_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-detail/scenario_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-sequence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/scenario-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_01172443120.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_01172443120.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_01496659263.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_01496659263.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_0330281878.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_0330281878.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_1066274990.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_1066274990.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_1747636710.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_1747636710.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_1929591448.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_1929591448.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_663154592.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-scenarios/step_663154592.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/step-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/tag-scenarios/tag_FirstTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/tag-scenarios/tag_FirstTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/generated-cucumber-report/pages/tag-summary.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,6 +261,14 @@
       <option name="presentableId" value="Default" />
       <updated>1721450945798</updated>
     </task>
+    <task id="LOCAL-00001" summary="chore: add README.md and fix some config">
+      <created>1721882922375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721882922375</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +284,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="chore: add README.md and fix some config" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add README.md and fix some config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
