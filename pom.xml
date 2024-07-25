@@ -132,7 +132,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <!--suppress UnresolvedMavenProperty -->
-                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                        <suiteXmlFile>parallel-tests/local/local_todoist.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <properties>
                         <property>
