@@ -3,8 +3,8 @@
 <suite name="Test Suite Local - Todoist APP">
 
     <test name="localTodoist">
-        <parameter name="udid" value="emulator-5554" />
-        <parameter name="platformVersion" value="5.1.1" />
+        <parameter name="udid" value="RR8NB094ZXX" />
+        <parameter name="platformVersion" value="10" />
         <classes>
             <class name="runners.TestRunner"/>
         </classes>
